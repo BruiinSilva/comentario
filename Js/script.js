@@ -10,3 +10,4 @@ function enviar() {
     // Mandando pro HTML
     document.getElementById("ana2").innerHTML += '<div class="usuario" style="color: ' + corTexto + ';background-color: ' + corFundo + ';" <h4>' + nome + '</h4><hr style="border-color: ' + corTexto + ';"><p>' + comentario + '</p></div>';
   }
+
