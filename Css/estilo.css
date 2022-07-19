@@ -64,7 +64,8 @@ body {
     margin-bottom: 20px;
   }
 
-  main { background-image: url(../imag/vas.png);
+  main {
+     background-image: url(../imag/vas.png);
   }
   
   button:hover {
