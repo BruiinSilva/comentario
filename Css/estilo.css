@@ -1,0 +1,87 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  /* posição na página*/
+  .container {
+    display: flex;
+    margin: 0px auto;
+    width: 50%;
+  }
+  
+  h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  /* distançio do HR do body*/
+  form {
+    padding-top: 30px;
+  }
+  
+  input {
+    margin-bottom: 20px;
+  }
+  
+  #nome {
+    /* margin-bottom: 20px; */
+    width: 100%;
+    padding: 5px 10px;
+  }
+  
+  #comentario {
+    resize: none;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 35px;
+  }
+  
+  #cor-texto {
+    padding: 0px 15px;
+  }
+  
+  #cor-texto:hover{
+    cursor: pointer;
+  }
+  
+  #cor-fundo {
+    padding: 0px 15px;
+  }
+  
+  #cor-fundo:hover{
+    cursor: pointer;
+  }
+  
+  button {
+    width: 100px;
+    padding: 10px 0px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+    cursor: pointer;
+  }
+
+  
+  
+  div hr {
+    margin-bottom: 20px;
+  }
+  
+  /* parte dos comentários */
+  
+  #ana2 {
+    display: block;
+  }
+  
+  .usuario {
+    border: 1px solid #222;
+    padding: 20px 40px;
+  }
+  
